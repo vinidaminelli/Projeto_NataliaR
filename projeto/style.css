@@ -1,0 +1,60 @@
+body {
+  background: #f1b5d8;
+}
+
+header {
+  background-color: #f1b5;
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  /* flex-wrap: wrap; */
+  justify-content: space-between;
+  padding: 10px;
+  border: 3px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.logo__cabecalho {
+  padding: 1em;
+}
+
+.cabecalho {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.85);
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+.cabecalho_img {
+  display: flex;
+  justify-content: center;
+}
+
+.cabecalho,
+.cabecalho_img {
+  margin: 10px;
+}
+
+.lista__copofelicidade,
+.lista__bolos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.lista {
+  list-style-type: none;
+}
+
+.lista__item {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
